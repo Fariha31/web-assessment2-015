@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  color: crimson;
+}
+table {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  font-family: arial, sans-serif;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.first_row,
+.second_row,
+.third_row {
+  padding: 12px;
+  text-align: center;
+}
+.first_row {
+  background: #a79798;
+}
+.second_row {
+  background: #dbdbdb;
+}
+.second_row span,
+.third_row span {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.second_row input[type="text"],
+.third_row input[type="text"] {
+  width: 20%;
+  height: 2%;
+}
+#txt_result {
+  color: red;
+  margin-top: 20px;
+}
